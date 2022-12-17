@@ -1,4 +1,6 @@
-/* By Matt05 Developerhttps://matt05.ml04.12.2021 */
+/* By Matt05 Developer
+https://matt05.ml
+04.12.2021 */
 
 .card-body {
   margin-top: 20px;
@@ -24,7 +26,7 @@ body {
 }
 
 .card-group {
-  display: flex !important;
+  display: flex;
   align-items: center !important;
   justify-content: center !important;
   width: 98%;
@@ -99,11 +101,14 @@ body {
 }
 
 .div-content-card img {
-  margin-left: 20px;
-  margin-right: 30px;
-  margin-bottom: 20px;
+  padding: 20px;
   width: 700px;
   height: auto;
+  /* Center the image */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .div-content-card-scroll {
@@ -159,6 +164,7 @@ body {
   color: var(--bs-dark);
   text-align: center;
   height: 30px;
+  position: fixed;
 }
 
 .footer p {
@@ -172,3 +178,13 @@ body {
   }
 }
 
+#backToSection {
+  margin-left: 15px;
+  position: fixed;
+  color: white;
+  font-size: 20px;
+}
+
+#backToSection:hover {
+  cursor: pointer;
+}
